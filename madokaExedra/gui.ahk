@@ -77,7 +77,7 @@ exitButton.OnEvent("Click", (*) {
   exit()
 })
 
-versionInfoText := AppGUI.AddLink("xm+0",'Made for Puella Magi Madoka Magica: Magia Exedra v2.12.1 (Global <a href="https://store.steampowered.com/app/2987800/">Steam version</a>) (<a href="https://github.com/dgltorress/gacha-macros">Git</a>)')
+versionInfoText := AppGUI.AddLink("xm+0",'Made for Puella Magi Madoka Magica: Magia Exedra v2.13.0 (Global <a href="https://store.steampowered.com/app/2987800/">Steam version</a>) (<a href="https://github.com/dgltorress/gacha-macros">Git</a>)')
 versionInfoText.SetFont("s8")
 
 status := AppGUI.AddStatusBar("w400")

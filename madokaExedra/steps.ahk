@@ -89,7 +89,7 @@ detect := {
       return isColor(normalizeX(1341), normalizeY(853), colors.unclaimed, COLOR_TOLERANCE) ; Skip notification
     },
     hasZeroSkipsLeft: () {
-      return isColor(normalizeX(1167), normalizeY(554), colors.spentNumber, COLOR_TOLERANCE) ; (0) / 5
+      return isColor(normalizeX(1167), normalizeY(603), colors.spentNumber, COLOR_TOLERANCE) ; (0) / 5
     },
     canSkip: () {
       return isColor(normalizeX(1204), normalizeY(815), colors.textFontColor, COLOR_TOLERANCE) ; (O)k in popup
@@ -133,7 +133,7 @@ detect := {
       return isColor(normalizeX(1204), normalizeY(815), colors.textFontColor, COLOR_TOLERANCE) ; (O)k in popup
     },
     isMaxSkipsSet: () {
-      return (compareColorBrightness(normalizeX(1325), normalizeY(658), "0x2A", "0x28", "0x28") == -1) ; Brightness
+      return (compareColorBrightness(normalizeX(1325), normalizeY(700), "0x2A", "0x28", "0x28") == -1) ; Brightness
     }
   },
   event: {
@@ -191,7 +191,7 @@ detect := {
       return isColor(normalizeX(1204), normalizeY(844), colors.textFontColor, COLOR_TOLERANCE) ; O(K) in popup
     },
     hasZeroSkipsLeft: () {
-      return isColor(normalizeX(1166), normalizeY(619), colors.spentNumber, COLOR_TOLERANCE) || isColor(normalizeX(1166), normalizeY(542), colors.spentNumber, COLOR_TOLERANCE) ; (0) / 5 with or without bonus panel
+      return isColor(normalizeX(1166), normalizeY(611), colors.spentNumber, COLOR_TOLERANCE) || isColor(normalizeX(1166), normalizeY(566), colors.spentNumber, COLOR_TOLERANCE) ; (0) / 5 with or without bonus panel
     }
   },
   raid: {
