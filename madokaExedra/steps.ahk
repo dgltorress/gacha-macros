@@ -110,7 +110,7 @@ detect := {
       return isColor(normalizeX(674), normalizeY(892), colors.textFontColor, COLOR_TOLERANCE) ; S(k)ip
     },
     hasZeroSkipsLeft: () {
-      return isColor(normalizeX(1167), normalizeY(580), colors.spentNumber, COLOR_TOLERANCE) ; (0) / 5
+      return isColor(normalizeX(1167), normalizeY(603), colors.spentNumber, COLOR_TOLERANCE) ; (0) / 5
     },
     canSkip: () {
       return isColor(normalizeX(1204), normalizeY(843), colors.textFontColor, COLOR_TOLERANCE) ; (O)k in popup
